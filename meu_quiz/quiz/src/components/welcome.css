@@ -1,0 +1,15 @@
+.container-startQuiz {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-startQuiz h2 {
+    padding: .5em;
+}
+
+.container-startQuiz p {
+    padding: .5em;
+}

@@ -1,0 +1,17 @@
+.Container-GameOver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Container-GameOver p {
+    padding: 1em;
+}
+
+.Container-GameOver button {
+    padding: .8em;
+    border-radius: 20px;
+    cursor: pointer;
+}

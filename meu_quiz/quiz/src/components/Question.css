@@ -1,0 +1,17 @@
+.main-questions_Options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-questions_Options p {
+    padding: .8em;
+}
+
+.container-options button {
+
+    padding: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+
+
+.correct {
+    background-color: #0bfc03;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.wrong {
+    background-color: red;
+    color: brown;
+}
