@@ -80,3 +80,67 @@
         radial-gradient(at 104% 87%, hsla(0, 0%, 2%, 0.69) 0px, transparent 50%),
         radial-gradient(at 7% 14%, hsla(0, 0%, 0%, 0.5) 0px, transparent 50%);
 }
+
+@media (max-width: 1024px) {
+    .questions-content {
+        height: 70%;
+    }
+
+    #answer-question {
+        padding: 0;
+        font-size: medium;
+        width: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .main-questions_Options {
+        column-gap: 30px;
+    }
+
+    .questions-content {
+        max-width: 30%;
+    }
+
+    .questions-content h2 {
+        padding: .5em;
+    }
+
+    .option {
+        width: 405px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main-questions_Options {
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 81%;
+    }
+
+    .questions-content {
+        min-width: 81%;
+        margin: 1em;
+    }
+
+    .option {
+        width: 379px;
+    }
+}
+
+@media (max-width: 375px) {
+    .option {
+        width: 340px;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+
+    .option {
+        width: 300px;
+    }
+
+}

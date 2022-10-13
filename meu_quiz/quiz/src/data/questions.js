@@ -25,7 +25,7 @@ const data = [
       answer: "querySelector",
     },
     {
-      question: "Qual não uma biblioteca do JavaScript",
+      question: "Qual das opções não é uma biblioteca do JavaScript?",
       options: ["JQuery", "Log4j 2", "Glimmer", "D3"],
       answer:"Log4j 2",
     },    
@@ -48,6 +48,11 @@ const data = [
       question: "Qual dentre as 4 opções não é um estado de uma Promise?",
       options: ["fulfilled", "Pending", "Settled", "Flex"],
       answer: "Flex"
+    },
+    {
+      question:"Provê ao navegador uma interface para a execução de requisições HTTP através de Promises?",
+      options:["Catch", "Then", "Sort", "Fetch"],
+      answer: "Fetch"
     }
   ];
   

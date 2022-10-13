@@ -59,3 +59,38 @@
         radial-gradient(at 7% 14%, hsla(0, 0%, 0%, 0.5) 0px, transparent 50%);
 
 }
+
+@media(max-width: 768px) {
+    .content-welcome {
+        width: 68vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .content-welcome {
+        width: 90vw;
+    }
+
+    .title-welcome {
+        padding: 1em;
+        font-size: large;
+    }
+
+    .container-startQuiz {
+        padding: 0;
+    }
+
+    .container-startQuiz button {
+        width: 42%;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .content-welcome {
+        width: 97vw;
+    }
+    .title-welcome {
+        font-size: medium;
+    }
+}
