@@ -1,12 +1,28 @@
+.option {
+    border: 2px solid #068be7;
+    width: 457px;;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 25px 0px 40px;
+}
 
+.option:hover {
+    font-weight: 700;
+}
+
+.option p {
+    padding: .7em;
+    row-gap: 20px;
+}
 
 .correct {
     background-color: #0bfc03;
     font-weight: bold;
-    color: blueviolet;
+    color: black;
 }
 
 .wrong {
-    background-color: red;
-    color: brown;
+    text-decoration: line-through;
+    opacity: .5;
+    background-color: rgba(255, 0, 0, 0.671);
 }

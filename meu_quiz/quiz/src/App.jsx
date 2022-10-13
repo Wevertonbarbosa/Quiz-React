@@ -22,7 +22,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Quiz de Programação </h1>
       {/* Aqui estou condicionando a exibição dos componentes conforme o Status do Quiz  */}
       { quizState.gameStage === "Start" &&  <Welcome />}
       { quizState.gameStage === "Playing" &&  <Question />}

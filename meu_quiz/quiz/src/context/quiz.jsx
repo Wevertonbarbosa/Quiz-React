@@ -16,6 +16,7 @@ const intialState = {
 
 //Agora vou criar uma variavel em que me possibilita alterar os estados usando o reducer ela é um comprimento do reducer(algo para ser estudado mais pra frente)
 const quizReducer = (state, action) => {
+    console.log(state);         
     //vamos mudar os estados com a ação do Switch
     switch (action.type) {
         case 'CHANGE_STATE':

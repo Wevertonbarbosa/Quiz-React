@@ -1,3 +1,26 @@
+.container-welcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+}
+
+.content-welcome {
+    border: 2px solid #068be7;
+    width: 50vw;
+    height: 60vh;
+    background-color: black;
+    border-radius: 10px 128px 0px 152px;
+}
+
+.title-welcome {
+    padding: 2em;
+    text-align: center;
+}
+
+
 .container-startQuiz {
     padding: 1em;
     display: flex;
@@ -11,5 +34,28 @@
 }
 
 .container-startQuiz p {
-    padding: .5em;
+    padding: .8em;
+}
+
+.container-startQuiz button {
+    padding: .8em;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    width: 30%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background-color: hsla(207, 100%, 49%, 1);
+    background-image:
+        radial-gradient(at 88% 14%, hsla(0, 0%, 0%, 0.5) 0px, transparent 50%),
+        radial-gradient(at 5% 87%, hsla(0, 0%, 2%, 0.69) 0px, transparent 50%);
+}
+
+.container-startQuiz button:hover {
+    font-weight: bold;
+    background-color: hsla(207, 100%, 49%, 1);
+    background-image:
+        radial-gradient(at 104% 87%, hsla(0, 0%, 2%, 0.69) 0px, transparent 50%),
+        radial-gradient(at 7% 14%, hsla(0, 0%, 0%, 0.5) 0px, transparent 50%);
+
 }

@@ -25,11 +25,30 @@ const data = [
       answer: "querySelector",
     },
     {
-      question:
-        "Qual destas propriedades da a quantidade de elementos de um array?",
+      question: "Qual não uma biblioteca do JavaScript",
+      options: ["JQuery", "Log4j 2", "Glimmer", "D3"],
+      answer:"Log4j 2",
+    },    
+    {
+      question:"Qual destas propriedades da a quantidade de elementos de um array?",
       options: ["qty", "length", "items", "index"],
       answer: "length",
     },
+    {
+      question: "Que ano o JavaScript foi criado?",
+      options:["1990", "1998", "1992", "1995"],
+      answer:"1995",
+    },
+    {
+      question: "Qual é o nome do criador da linguagem do JavaScript?",
+      options: ["Brendan Eich", "Bill Gates", "Michael Jackson", "Tim Berners-lee"],
+      answer: "Brendan Eich",
+    },
+    {
+      question: "Qual dentre as 4 opções não é um estado de uma Promise?",
+      options: ["fulfilled", "Pending", "Settled", "Flex"],
+      answer: "Flex"
+    }
   ];
   
   export default data;

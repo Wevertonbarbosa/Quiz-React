@@ -12,18 +12,26 @@ function Question() {
 
     const onSelectOption = (option) => {
         dispatch({
-            type: "CHECK_ANSWER",
-            payload: {answer: currentQuestion.answer, option}
-        })
+            type: 'CHECK_ANSWER',
+            payload: { answer: currentQuestion.answer, option },
+        });
     };
 
     return (
         <div className="main-questions_Options">
-            <p>
-                Perguntas {quizState.currentQuestion + 1} de{' '}
-                {quizState.questions.length}
-            </p>
-            <h2>{currentQuestion.question}</h2>
+            <div className="questions-content">
+                <p>
+                    Perguntas {quizState.currentQuestion + 1} de{' '}
+                    {quizState.questions.length}
+                </p>
+                <h2>{currentQuestion.question}</h2>
+
+                {quizState.answerSelected && (
+                    <p id="answer-question">
+                        A Resposta é <span>{`${currentQuestion.answer}`}</span>
+                    </p>
+                )}
+            </div>
             <div className="container-options">
                 {currentQuestion.options.map((option) => (
                     <Option

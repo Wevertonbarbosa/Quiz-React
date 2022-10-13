@@ -3,15 +3,50 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    height: 85vh;
+    text-align: center;
 }
 
-.Container-GameOver p {
+.content-game {
+    border: 2px solid #068be7;
+    width: 50vw;
+    height: 60vh;
+    background-color: black;
+    border-radius: 10px 128px 0px 152px;
+}
+
+.content-game h2 {
+    text-align: center;
     padding: 1em;
 }
 
+.content-game p {
+
+    padding: 1em;
+    font-weight: 700;
+
+}
+
+
 .Container-GameOver button {
     padding: .8em;
-    border-radius: 20px;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    width: 30%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background-color: hsla(207, 100%, 49%, 1);
+    background-image:
+        radial-gradient(at 88% 14%, hsla(0, 0%, 0%, 0.5) 0px, transparent 50%),
+        radial-gradient(at 5% 87%, hsla(0, 0%, 2%, 0.69) 0px, transparent 50%);
+
+}
+
+.Container-GameOver button:hover {
+    font-weight: bold;
+    background-color: hsla(207, 100%, 49%, 1);
+    background-image:
+        radial-gradient(at 104% 87%, hsla(0, 0%, 2%, 0.69) 0px, transparent 50%),
+        radial-gradient(at 7% 14%, hsla(0, 0%, 0%, 0.5) 0px, transparent 50%);
 }
